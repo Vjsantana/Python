@@ -25,4 +25,8 @@ print(exponenciacao)
 print(type(soma))
 #O resultado exibido será: <class 'int'>
 
+#cCONVERSÃO DE UMA VARIÁVEL
+
+"""Para convertermos uma variável de um tipo qualquer para o tipo string"""
+
 
