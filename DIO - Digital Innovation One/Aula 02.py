@@ -62,9 +62,12 @@ print('soma: {soma} e subtração: {subtracao} ' .format(soma=soma, subtracao=su
 """Note que se incluírmos o nome da variável dentro das chaves precisaremos indentificá-la após o método 
 '.format' """
 
-#QUEBRA DE LINHA NO PYTHON
+#QUEBRA DE LINHA NO PYTHON (\n).
 
-"""Para incluírmos uma quebra de linha no código basta utilizarmos o '/n'. Ele equivale a tecla 'ENTER' """
+"""Para incluírmos uma quebra de linha no código basta utilizarmos o '\n'. Ele equivale a tecla 'ENTER'. 
+Note o código que executamos na linha 60 sendo executado agora com uma quebra de linha."""
+
+print('soma: {soma} e \nsubtração: {subtracao} ' .format(soma=soma, subtracao=subtracao))
 
 
 
