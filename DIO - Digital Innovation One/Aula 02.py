@@ -20,13 +20,21 @@ print(divisao)
 print(resto)
 print(exponenciacao)
 
-#Se desejarmos consultar o 'tipo' de uma variável podemos utilizar a palavra 'type'. veja um exemplo abaixo:
+#CONSULTAR O TIPO DE UMA VARIÁVEL
+
+"""Se desejarmos consultar o 'tipo' de uma variável podemos utilizar a palavra 'type'. veja um exemplo abaixo:"""
 
 print(type(soma))
-#O resultado exibido será: <class 'int'>
+"""O resultado exibido será: <class 'int'>"""
 
 #cCONVERSÃO DE UMA VARIÁVEL
 
-"""Para convertermos uma variável de um tipo qualquer para o tipo string"""
+"""Para convertermos uma variável de um tipo qualquer para o tipo string, por exemplo, basta acrescentarmos 
+as iniciais 'str' no início da variável. Veja um exemplo abaixo:"""
+
+print('soma: '+ str(soma))
+"""O resultado exibido será: 'soma: 15' """
+
+
 
 
