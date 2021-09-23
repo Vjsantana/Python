@@ -55,6 +55,13 @@ o método '.format'. Podemos incluir mais de uma variável na mesma linha. Veja 
 
 print('soma: {} e subtração: {} ' .format(soma, subtracao))
 
+"""Outra forma de escrevermos o código acima é: """
+
+print('soma: {soma} e subtração: {subtracao} ' .format(soma=soma, subtracao=subtracao))
+
+"""Note que se incluírmos o nome da variável dentro das chaves precisaremos indentificá-la após o método 
+'.format' """
+
 #QUEBRA DE LINHA NO PYTHON
 
 """Para incluírmos uma quebra de linha no código """
