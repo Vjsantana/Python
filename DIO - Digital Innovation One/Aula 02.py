@@ -64,7 +64,7 @@ print('soma: {soma} e subtração: {subtracao} ' .format(soma=soma, subtracao=su
 
 #QUEBRA DE LINHA NO PYTHON
 
-"""Para incluírmos uma quebra de linha no código """
+"""Para incluírmos uma quebra de linha no código basta utilizarmos o '/n'. Ele equivale a tecla 'ENTER' """
 
 
 
