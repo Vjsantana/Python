@@ -6,6 +6,7 @@ b = 5
 """Para inserir comentários em mais de uma linha no Python digite o seu comentário entre três aspas simples ou 
 três aspas duplas. O comentário aparecerá na forma de uma string mas não irá gerar bytecod."""
 
+#OPERADORES ARITMÉTICOS.
 soma = a + b
 subtracao = a - b
 multiplicacao = a * b
