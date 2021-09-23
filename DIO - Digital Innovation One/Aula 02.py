@@ -25,7 +25,10 @@ print(exponenciacao)
 """Se desejarmos consultar o 'tipo' de uma variável podemos utilizar a palavra 'type'. veja um exemplo abaixo:"""
 
 print(type(soma))
-"""O resultado exibido será: <class 'int'>"""
+"""O resultado exibido será: <class 'int'>
+Veja a seguir mais um exemplo com outro tipo de variável"""
+
+print(type(divisao))
 
 #cCONVERSÃO DE UMA VARIÁVEL
 
