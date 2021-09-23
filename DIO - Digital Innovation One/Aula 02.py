@@ -35,9 +35,21 @@ print(type(divisao))
 """Para convertermos uma variável de um tipo qualquer para o tipo string, por exemplo, basta acrescentarmos 
 as iniciais 'str' no início da variável. Veja um exemplo abaixo:"""
 
-print('soma: '+ str(soma))
-"""O resultado exibido será: 'soma: 15' """
+print('Soma: '+ str(soma))
+"""O resultado exibido será: 'soma: 15' 
+Vamos agora converter a variável 'divisao' que está no tipo float para o tipo int."""
 
+print(int(divisao))
+"""O resultado será '2' ao invés de '2.0' conforme apresentado na mesma operação feita anteriormente, 
+quando o tipo da variável 'divisao' era float"""
 
+#OPERADOR '.FORMAT'
+
+"""É utilizado para concatenar strings e variáveis sem a necessidade de realizar conversões. Veja 
+um exemplo abaixo"""
+
+print('soma: {} ' .format(soma))
+
+"""As chaves '{}' são utilizadas para substituir o '+' quando utilizamos o operador '.format' """
 
 
