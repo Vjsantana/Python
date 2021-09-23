@@ -43,13 +43,22 @@ print(int(divisao))
 """O resultado será '2' ao invés de '2.0' conforme apresentado na mesma operação feita anteriormente, 
 quando o tipo da variável 'divisao' era float"""
 
-#OPERADOR '.FORMAT'
+#MÉTODO '.FORMAT'
 
 """É utilizado para concatenar strings e variáveis sem a necessidade de realizar conversões. Veja 
 um exemplo abaixo"""
 
 print('soma: {} ' .format(soma))
 
-"""As chaves '{}' são utilizadas para substituir o '+' quando utilizamos o operador '.format' """
+"""As chaves '{}' são utilizadas para substituir a variável que desejamos concatenar quando utilizamos 
+o método '.format'. Podemos incluir mais de uma variável na mesma linha. Veja o exemplo a seguir"""
+
+print('soma: {} e subtração: {} ' .format(soma, subtracao))
+
+#QUEBRA DE LINHA NO PYTHON
+
+"""Para incluírmos uma quebra de linha no código """
+
+
 
 
