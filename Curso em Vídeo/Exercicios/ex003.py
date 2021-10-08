@@ -1,4 +1,4 @@
-n1 = input('Digite o primeiro número')
-n2 = input('Digite o segundo número')
+n1 = int(input('Digite o primeiro número'))
+n2 = int(input('Digite o segundo número'))
 soma = n1 + n2
-print('A soma dos números é',soma)
+print('A soma dos números é:', soma)
