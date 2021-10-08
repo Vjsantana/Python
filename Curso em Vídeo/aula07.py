@@ -12,4 +12,15 @@ print(op1b)
 
 """O resultado agora é 16. Isso ocorreu porque os parênteses em python são quem determinam a ordem em que 
 uma operação aritmética será realizada. No caso acima, executou-se primeiro a adição e, logo em seguida, 
-a multiplicação."""
+a multiplicação. Vejamos outro exemplo:"""
+
+op2a = 3*5+4**2
+print(op2a)
+
+"""Agora, a mesma expressão com a utilização de parênteses afim de se definir a ordem de precedência das 
+operações:"""
+
+op2b = 3*(5+4)**2
+print(op2b)
+
+"""O resultado agora é 243."""
