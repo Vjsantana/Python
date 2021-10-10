@@ -4,3 +4,6 @@ print('O dobro do número {} é {}, o triplo é {} e a raíz quadarada é {:.2f}
 """A expressão '{:.2f}' dentro da terceira máscara, que representa a potenciação ou raiz quadrada, indica 
 queremos o resultado com no máximo até duas casas decimais."""
 
+#A potenciação ou raíz quadrada também poderia ser resolvida utilizando a função "pow(n, 1/2)".
+
+
